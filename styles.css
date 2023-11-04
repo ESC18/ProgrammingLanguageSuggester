@@ -44,3 +44,13 @@ select {
     border-radius: 3px;
 }
 
+#result {
+    color: black;
+    font-family: Roboto Mono;
+    position: absolute;
+    top: 73.25%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    font-size: 12px;
+}
