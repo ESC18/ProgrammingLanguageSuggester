@@ -9,16 +9,15 @@
 * Chrome & Firefox Web developer tools
 
 ## Description of Application:
-This web application is a small survey site which can be used as a tool to determine a proper coding language for you to use or learn! It takes in values to determine your current skillset, whether you want a back or front end language, and other various selections. Upon submitting your response - it will provide both text and image based feedback informing you which language it chose for you. The 3 different languages possible to chosen are Swift, Python, and Javascript.
+This web application is a small survey site which can be used as a tool to determine a proper coding language for you to use or learn! It takes in values to determine your current opinions, whether you want a back or front end language, and other various selections. Upon submitting your response - it will provide text based feedback informing you which language it chose for you. 
 
 ## Setup and installation requirements/guide:
-1. First download the repository _"ProgrammingSuggesterSite"_ to your device.
+1. First download the repository _"ProgrammingLanguageSuggester_ to your device.
 2. Proceed to navigate to the highest level of your directory.
 3. Open index.html.
 
 ## Known Bugs:
 * No Known Bugs
-* 
 
 ## Licensing:
 MIT
