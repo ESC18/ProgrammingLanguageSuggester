@@ -1,22 +1,14 @@
-let pythonCounter = 0;
-let javascriptCounter = 0;
-let javaCounter = 0;
-let csharpCounter = 0;
-let rubyCounter = 0;
-let swiftCounter = 0;
-let htmlCssCounter = 0;
-
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.querySelector('form');
     form.addEventListener('submit', function (e) {
         e.preventDefault();
-        pythonCounter = 0;
-        javascriptCounter = 0;
-        javaCounter = 0;
-        csharpCounter = 0;
-        rubyCounter = 0;
-        swiftCounter = 0;
-        htmlCssCounter = 0;
+        let pythonCounter = 0;
+        let javascriptCounter = 0;
+        let javaCounter = 0;
+        let csharpCounter = 0;
+        let rubyCounter = 0;
+        let swiftCounter = 0;
+        let htmlCssCounter = 0;
         const goal = document.getElementById('q1').value;
         const type = document.getElementById('q2').value;
         const platform = document.getElementById('q3').value;
@@ -94,13 +86,13 @@ document.addEventListener('DOMContentLoaded', function () {
             csharpCounter += 5;
         }
 
-        const recommendedLanguages = getRecommendedLanguages();
+        const recommendedLanguages = getRecommendedLanguages(pythonCounter, javascriptCounter, javaCounter, csharpCounter, rubyCounter, swiftCounter, htmlCssCounter);
 
         displayRecommendations(recommendedLanguages);
     });
 });
 
-function getRecommendedLanguages() {
+function getRecommendedLanguages(pythonCounter, javascriptCounter, javaCounter, csharpCounter, rubyCounter, swiftCounter, htmlCssCounter) {
     const languageCounters = [
         { language: 'Python', counter: pythonCounter },
         { language: 'JavaScript', counter: javascriptCounter },
