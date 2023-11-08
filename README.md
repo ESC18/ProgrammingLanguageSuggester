@@ -13,11 +13,11 @@ This web application is a small survey site which can be used as a tool to deter
 
 ## Setup and installation requirements/guide:
 1. Clone the repository _"ProgrammingLanguageSuggester_ to your device through this link: https://github.com/ESC18/ProgrammingLanguageSuggester
-    A. Select 'Code' in the repo page.
-    B. Copy the provided HTTPS Link.
-    C. Navigate through Git bashto your desired folder to place the project.
-    D. Do the necessary git commands to initialize the project and then proceed to do: 'git clone https://github.com/ESC18/Portfolio.git'
-2. Happy Coding!
+2. Select 'Code' in the repo page.
+3. Copy the provided HTTPS Link.
+4. Navigate through Git bashto your desired folder to place the project.
+5. Do the necessary git commands to initialize the project and then proceed to do: 'git clone https://github.com/ESC18/Portfolio.git'
+6. Happy Coding!
 
 ### Requirements:
 1. A basic computer with internet Access.
