@@ -122,8 +122,8 @@ function displayRecommendations(recommendedLanguages) {
     const resultDiv = document.getElementById('result');
 
     if (recommendedLanguages.length > 0) {
-        resultDiv.innerHTML = `Based on your preferences, we recommend the following languages: ${recommendedLanguages.join(', ')}.`;
+        resultDiv.innerHTML = `Based on your selections, we recommend the following language: ${recommendedLanguages}`;
     } else {
-        resultDiv.innerHTML = 'We couldn\'t find a suitable language recommendation for your preferences.';
+        resultDiv.innerHTML = 'No Suitable languages found';
     }
 }

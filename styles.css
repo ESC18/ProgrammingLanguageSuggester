@@ -45,12 +45,13 @@ select {
 }
 
 #result {
-    color: black;
+    color: white;
     font-family: Roboto Mono;
     position: absolute;
-    top: 73.25%;
-    left: 52%;
+    text-align: center;
+    top: 85%;
+    left: 50%;
     transform: translate(-50%,-50%);
-    width: 300px;
-    font-size: 12px;
+    width: 350px;
+    font-size: 20px;
 }
