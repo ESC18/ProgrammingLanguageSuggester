@@ -23,7 +23,7 @@ This web application is a small survey site which can be used as a tool to deter
 1. A basic computer with internet Access.
 
 ## Known Bugs:
-* No Known Bugs
+* Site is NOT responsive. For best results use it with a device that has dimensions of 1920x1080p.
 
 ## Licensing:
 MIT License
